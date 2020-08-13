@@ -1,0 +1,37 @@
+.search-banner {
+  &__box {
+    background: url("../images/mainbanner.jpg") center center no-repeat;
+    background-size: 100%;
+    padding-top: 108px;
+    padding-bottom: 108px;
+    padding-left: 50px;
+  }
+
+  &__title {
+    width: 100%;
+    max-width: 500px;
+    color: #fff;
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 900px) {
+  .search-banner {
+    &__box {
+      background: url("../images/mainbanner.jpg") center center no-repeat;
+      background-size: 100%;
+      padding-top: 24px;
+      padding-bottom: 87px;
+      padding-left: 50px;
+      padding-right: 24px;
+    }
+
+    &__title {
+      width: 100%;
+      max-width: 372px;
+      color: #fff;
+      padding-bottom: 24px;
+      font-size: 24px;
+    }
+  }
+}

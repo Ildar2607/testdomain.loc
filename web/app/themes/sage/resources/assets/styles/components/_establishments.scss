@@ -1,0 +1,155 @@
+.establishments {
+  padding-top: 58px;
+  border-bottom: 2px solid #f2f2f2;
+
+  &__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__cart {
+    display: flex;
+    flex-direction: column;
+    width: 362px;
+    padding-bottom: 36px;
+  }
+
+  &__title {
+    padding-top: 16px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #212121;
+    padding-bottom: 4px;
+  }
+
+  &__category {
+    position: relative;
+    font-size: 14px;
+    color: #a9a9a9;
+    padding-right: 10px;
+
+    &::after {
+      position: absolute;
+      top: 8px;
+      right: 0;
+      content: "";
+      width: 4px;
+      height: 4px;
+      background: #a9a9a9;
+      border-radius: 50px;
+    }
+
+    &:last-child {
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .establishments {
+    padding-top: 0;
+    border-bottom: 2px solid #f2f2f2;
+
+    &__box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    &__cart {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 362px;
+      padding-bottom: 36px;
+    }
+
+    &__title {
+      padding-top: 16px;
+      font-size: 24px;
+      line-height: 24px;
+      color: #212121;
+      padding-bottom: 4px;
+    }
+
+    &__category {
+      position: relative;
+      font-size: 14px;
+      color: #a9a9a9;
+      padding-right: 10px;
+
+      &::after {
+        position: absolute;
+        top: 8px;
+        right: 0;
+        content: "";
+        width: 4px;
+        height: 4px;
+        background: #a9a9a9;
+        border-radius: 50px;
+      }
+
+      &:last-child {
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .establishments {
+    padding-top: 0;
+    border-bottom: 2px solid #f2f2f2;
+
+    &__box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &__cart {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 362px;
+      padding-bottom: 36px;
+    }
+
+    &__title {
+      padding-top: 16px;
+      font-size: 24px;
+      line-height: 24px;
+      color: #212121;
+      padding-bottom: 4px;
+    }
+
+    &__category {
+      position: relative;
+      font-size: 14px;
+      color: #a9a9a9;
+      padding-right: 10px;
+
+      &::after {
+        position: absolute;
+        top: 8px;
+        right: 0;
+        content: "";
+        width: 4px;
+        height: 4px;
+        background: #a9a9a9;
+        border-radius: 50px;
+      }
+
+      &:last-child {
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}
